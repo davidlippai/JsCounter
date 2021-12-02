@@ -19,11 +19,13 @@ body {
         #ffffff 100%
     );
     background: linear-gradient(135deg, #ffe5b4 0%, #ffffff 83%, #ffffff 100%);
+    letter-spacing: 0.2rem;
+    font-family: "M PLUS 1 Code", sans-serif;
 }
 
 div#container {
     width: 30%;
-    border: solid 1px black;
+
     margin: 10vh auto;
     min-height: 30vh;
     padding: 0.5rem;
@@ -57,6 +59,15 @@ button {
     overflow: hidden;
     min-width: 5vw;
     background-color: #ded7d3;
+    font-variant: small-caps;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(0.975);
+    background-color: #ac9b7b;
+    color: white;
 }
 
 .greenColor {
@@ -65,4 +76,8 @@ button {
 
 .redColor {
     color: red;
+}
+
+span {
+    font-family: "Times New Roman", Times, serif;
 }
